@@ -1,0 +1,400 @@
+@import '_mixins';
+
+html, body{
+	min-height: 100%;
+}
+
+body{
+	font-family: 'Lato';
+	padding:0px;
+	margin: 0px;	
+	text-align: center;
+	color: rgb(60, 60, 60);
+	position: relative;
+	background-image: url('../imgs/whitebg.jpg');
+	
+	h1{
+	color: rgb(255, 255, 255);
+	font-size: 5em;
+	font-family: 'league_gothic';
+	letter-spacing: 25px;
+
+		@include breakpoint('mobile'){
+			font-size:3rem;
+			letter-spacing:5px;
+		}
+	}
+
+	h2{
+	    font-size: 2em;
+	    padding: 25px 0 0 0;
+	    margin: 0 auto;
+	    font-weight: 100;
+	    font-family: 'nexa_lightregular';
+	    /* color: #00145F; */
+	    border-bottom: 1px solid #000;
+	    width:50%;
+			
+			@include breakpoint('mobile'){
+				width:75%;
+			}
+		}
+
+	h3{
+		font-family: 'Lato';
+		font-weight: 100;
+		font-size: 50px;
+		border-top: 1px solid #ffffff;
+		border-bottom: 1px solid #ffffff;
+		color: #ffffff;
+		padding: 10px;
+
+		@include breakpoint('mobile'){
+			font-weight:300;
+			font-size: 14px;
+    		letter-spacing: 2px;
+    		width: 75%;
+    		margin: 0 auto;
+		}
+	}
+	.clear{
+		clear: both;
+	}
+
+
+}
+
+.no_scroll{
+	overflow:hidden;
+}
+
+
+
+#down-arrow a{
+	font-size: 50px;
+	color: #ffffff;
+	text-decoration: none;
+	font-style: none;
+	
+}
+
+/*NAV STYLES*/
+
+
+
+.main-nav,
+#wrap {
+	width: 100%;
+	/*position: relative; */
+}
+
+.main-nav {
+	width: 100%;
+	position:absolute;
+	bottom: 0px;
+	padding: 15px 0px;
+	background: rgba(0,0,0,.5);
+	z-index: 100000;
+	box-shadow: 0 2px 3px rgba(0,0,0,.4);
+	
+	@include breakpoint('mobile'){
+		padding: 8px 0;
+	}
+
+	a{
+		color: #ffffff;
+		text-decoration: none;
+		font-size: 1rem;
+		margin: 0 5%;
+		letter-spacing: 3px;
+		
+		@include breakpoint('mobile'){
+		    color: #ffffff;
+		    text-decoration: none;
+		    font-size: 10px;
+		    margin: 0 1%;
+		    font-weight:300;
+			font-size: 14px;
+    		letter-spacing: 2px;
+		}
+	}	
+}
+
+
+
+.main-nav-scrolled {
+	height: 15px;
+	position: fixed; 
+	width: 100%;
+	top: 0;
+	padding: 1% 0;
+}
+
+/*LANDING PAGE STYLES*/
+#landing{
+	/*position:fixed;*/
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+	/*height: 900px;*/
+	position: relative;
+	background-color: rgba(0, 98, 167, 0.52);
+	background-image: 
+	    linear-gradient(
+	      rgba(0, 0, 0, 0.5),
+	      rgba(0, 0, 0, 0.5)
+	    ),
+	    url('../imgs/dandelion.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+
+	@include breakpoint('mobile'){
+		height:50%;
+		background-size:100vh;
+	}
+	
+	.content{
+		height: 400px;
+		font-size: 25px;
+		padding: 15%;
+
+		@include breakpoint('mobile'){
+			padding:0;
+			padding-top: 15%;
+			height: 200px;
+			font-size: 25px;
+		}
+	}
+	p{
+		color: #ffffff;
+		font-family: 'nexa_lightregular';
+		font-weight: 100;
+		width: 85%;
+		margin: 0 auto;
+		padding:2%; 
+		line-height:30px;
+		font-size:15px;
+		text-transform:uppercase;
+		@include breakpoint('mobile'){
+			font-size:10px;
+			line-height:15px;
+		}
+	}
+}
+
+
+
+/*RECENT WORK*/
+#recent-work{
+	padding:25px;
+	background-attachment: fixed;
+	
+	.project{
+		margin: 25;
+		width: 25%;
+		/*height: 35%;*/
+		overflow: hidden;
+		background-color: #ffffff;
+		border: 1px solid rgb(60, 60, 60);
+		display: inline-block;
+		/*position: relative;*/
+
+		@include breakpoint('mobile'){
+			width:95%;
+			margin: 3% auto;
+		}
+
+		img{
+		    width:100%;
+		    /*height:100%;*/
+		}
+
+	}
+}
+
+
+
+
+.project-overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	background-color: rgba(0,0,0,0.5);
+	display:none;
+
+	h3{
+		font-family: 'Lato';
+		font-weight: 100;
+		font-size: 30px;
+		margin: 0 auto;
+		color: #00145F;
+		padding: 10px;
+		width:50%;
+		border-bottom: solid 1px #00145F;
+	}
+}
+
+.project-details-wrap{
+	background-color: #ffffff;
+    // border:20px solid #ffffff;
+    border-radius: 1%;
+    width: 55%;
+    height: 80%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1%;
+
+    @include breakpoint('mobile'){
+    	width:90%;
+		transform: translate(0);
+		position: absolute;
+	    top: 5%;
+	    left: 5%;
+	    height: 75%;
+	}
+	
+	p{
+		font-size: 15px;
+		line-height: 20px;
+		font-weight: bold;		
+		margin: 0 auto;
+	}
+
+	.close{
+	  float: right;
+	  font-size: 50px;
+	  font-family: "Lato";
+	  padding:0 0 5% 0;
+
+	}
+
+	.detailed-view-wrap{
+		font-size: 25px;
+		display: block;
+		line-height: 40px;
+		overflow-x: auto;
+		height: 85%;
+
+		@include breakpoint('mobile'){
+			height: 85%;
+		}
+		
+		img {
+			/*height: 50%;*/
+			width: 95%;
+			margin: 0 auto;	
+		}
+
+		h2{
+			border:none;
+		}
+
+		.summary, .technologies{
+			width: 50%;
+			float: left;
+			display: inline-block;
+			line-height: 20px;
+			font-size: 20px;
+			padding-bottom: 25px;
+
+			@include breakpoint('mobile'){
+				width:100%;
+				float:none;
+			}
+
+			p{
+				width:85%;
+				@include breakpoint('mobile'){
+					width: 90%;
+				}
+			}
+			
+			ul{
+				line-height: 20px;
+				font-size: 20px;
+			}
+		}
+		
+		
+		a.view-project-button{
+			border: 1px solid #000;
+			border-radius: 1%;
+			padding: 25px;
+			background-color: #cccccc;
+			font-size: 20px;
+			letter-spacing: 5px;
+			text-decoration: none;
+			color: #000;
+			display: block;
+			clear: both;
+			margin: 0 auto;
+			width: 20%;
+		}
+	}	
+}
+
+
+/*SKILLS*/
+
+#skills img.icon{
+	height: 100px;
+	padding-right: 5%;
+	margin: 0 auto;
+
+	@include breakpoint('mobile'){
+		padding:0;
+		// height:30px
+	}
+}
+
+.skills-container{
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 5%;
+	
+	@include breakpoint('mobile'){
+		width:100%;
+	}
+
+	li{
+		display: inline-block;
+		padding: 3%;
+
+		@include breakpoint('mobile'){
+			width:50%;
+			padding:15px 0px;
+		}
+	}
+	
+	p{
+		margin: 0 auto;
+	}
+}
+
+/*CONTACT*/
+#contact{
+	// background-image: 
+	// 	linear-gradient(
+	// 		rgba(0, 0, 0, 0.5),
+	// 		rgba(0, 0, 0, 0.5)
+	// 	),
+	background-color:#000;
+	color: #ffffff;
+	padding: 50px;
+
+	h2{
+		color:#ffffff;
+		border:none;
+	}
+}
+
