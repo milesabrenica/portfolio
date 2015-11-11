@@ -15,9 +15,9 @@ body{
 	
 	h1{
 	color: rgb(255, 255, 255);
-	font-size: 5em;
+	font-size: 4em;
 	font-family: 'league_gothic';
-	letter-spacing: 25px;
+	/*letter-spacing: 25px;*/
 
 		@include breakpoint('mobile'){
 			font-size:3rem;
@@ -43,7 +43,7 @@ body{
 	h3{
 		font-family: 'Lato';
 		font-weight: 100;
-		font-size: 50px;
+		font-size: 1em;
 		border-top: 1px solid #ffffff;
 		border-bottom: 1px solid #ffffff;
 		color: #ffffff;
@@ -79,13 +79,9 @@ body{
 }
 
 /*NAV STYLES*/
-
-
-
 .main-nav,
 #wrap {
 	width: 100%;
-	/*position: relative; */
 }
 
 .main-nav {
@@ -132,25 +128,12 @@ body{
 
 /*LANDING PAGE STYLES*/
 #landing{
-	/*position:fixed;*/
-    padding:0;
-    margin:0;
-    width: 100%;
-    height: 100%;
-    
-    text-align: center;
-	/*height: 900px;*/
-	position: relative;
-	background-color: rgba(0, 98, 167, 0.52);
-	background-image: 
-	    linear-gradient(
-	      rgba(0, 0, 0, 0.5),
-	      rgba(0, 0, 0, 0.5)
-	    ),
-	    url('../imgs/dandelion.jpg');
-	background-size:cover;
-	background-repeat:no-repeat;
-	background-attachment: fixed;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    	url("../imgs/dandelion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 	@include breakpoint('mobile'){
 		height:50%;
@@ -158,7 +141,6 @@ body{
 	}
 	
 	.content{
-		height: 400px;
 		font-size: 25px;
 		padding: 15%;
 
@@ -177,7 +159,7 @@ body{
 		margin: 0 auto;
 		padding:2%; 
 		line-height:30px;
-		font-size:15px;
+		font-size:1rem;
 		text-transform:uppercase;
 		@include breakpoint('mobile'){
 			font-size:10px;
@@ -358,7 +340,7 @@ body{
 }
 
 .skills-container{
-	width: 50%;
+	width: 95%;
 	margin: 0 auto;
 	padding-bottom: 5%;
 	
@@ -368,10 +350,10 @@ body{
 
 	li{
 		display: inline-block;
-		padding: 3%;
+		padding: 25px;
 
 		@include breakpoint('mobile'){
-			width:50%;
+			width:100%;
 			padding:15px 0px;
 		}
 	}
