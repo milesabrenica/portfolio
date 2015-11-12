@@ -274,17 +274,18 @@ body {
 
 /*SKILLS*/
 #skills img.icon {
-  height: 100px;
+  height: 65px;
   padding-right: 5%;
   margin: 0 auto; }
   @media screen and (max-width: 640px) {
     #skills img.icon {
-      padding: 0; } }
+      padding: 0;
+      height: 60px; } }
 
 .skills-container {
-  width: 95%;
+  width: 60%;
   margin: 0 auto;
-  padding-bottom: 5%; }
+  padding: 5% 0; }
   @media screen and (max-width: 640px) {
     .skills-container {
       width: 100%; } }
@@ -293,8 +294,9 @@ body {
     padding: 25px; }
     @media screen and (max-width: 640px) {
       .skills-container li {
-        width: 100%;
-        padding: 15px 0px; } }
+        width: 50%;
+        padding: 15px 0px;
+        float: left; } }
   .skills-container p {
     margin: 0 auto; }
 
@@ -306,3 +308,6 @@ body {
   #contact h2 {
     color: #ffffff;
     border: none; }
+  #contact a {
+    color: #ffffff;
+    text-decoration: none; }
