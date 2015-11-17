@@ -217,6 +217,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 879,
+		"inputAbbreviatedPath": "\/imgs\/favicon.png",
+		"outputAbbreviatedPath": "\/imgs\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/landing.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -444,6 +455,17 @@
 		"initialSize": 2.40614e+06,
 		"inputAbbreviatedPath": "\/imgs\/projects\/wedding\/thumb.png",
 		"outputAbbreviatedPath": "\/imgs\/projects\/wedding\/thumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/websiteshot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.81996e+06,
+		"inputAbbreviatedPath": "\/imgs\/websiteshot.png",
+		"outputAbbreviatedPath": "\/imgs\/websiteshot.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
