@@ -160,7 +160,7 @@ body {
   padding: 25px;
   background-attachment: fixed; }
   #recent-work .project {
-    margin: 25;
+    margin: 25px;
     width: 25%;
     /*height: 35%;*/
     overflow: hidden;
@@ -220,10 +220,10 @@ body {
     font-weight: bold;
     margin: 0 auto; }
   .project-details-wrap .close {
-    float: right;
     font-size: 50px;
-    font-family: "Lato";
-    padding: 0 0 5% 0; }
+    position: absolute;
+    right: 5;
+    top: -10px; }
   .project-details-wrap .detailed-view-wrap {
     font-size: 25px;
     display: block;
