@@ -379,6 +379,7 @@ body{
 					font-family: league_gothic;
 					font-size: 25px;
 					color: #386BA5;
+					float: left;
 				}
 			}
 						
@@ -444,8 +445,8 @@ body{
 	padding: 50px;
 
 	img{
-		width: 75px;
-		padding: 50px;
+		width: 50px;
+		padding: 50px 50px 0 50px;
 	}
 	h2{
 		color:#ffffff;
@@ -454,7 +455,14 @@ body{
 
 	a{
 		color: #ffffff;
-		text-decoration: none;
+	    text-decoration: none;
+	    display: inline-block;
+	    text-align: center;
+	    width: 160px;
 	}
+	.contactsection{
+		text-align: center;
+	}
+
 }
 
