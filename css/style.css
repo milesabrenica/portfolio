@@ -229,7 +229,7 @@ body {
     display: block;
     line-height: 40px;
     overflow-x: auto;
-    height: 85%; }
+    height: 100%; }
     @media screen and (max-width: 640px) {
       .project-details-wrap .detailed-view-wrap {
         height: 85%; } }
