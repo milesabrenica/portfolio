@@ -78,16 +78,21 @@ $(".project-overlay").click(function(){
 
         $('.project-details-wrap').find('img').attr('src', projects[i].imgUrl);
         $('.project-details-wrap').find('h2').html(projects[i].title);  
-        $('.project-details-wrap').find('p').html(projects[i].description);  
-        $('.project-details-wrap').find('a').attr('href',projects[i].url);  
-        
+        $('.summary').find('span').html(projects[i].description);  
+        $('.github').find('a').attr('href',projects[i].gitHub);  
+        $('.site').find('a').attr('href',projects[i].url);  
+        var technologiesString = "";
+
         //This goes through the list of technologies and makes a list of them on the window. 
         for (var k = 0; k < projects[i].technologies.length; k++) {
           //with javascript create a NEW li element with the contents of "projects[i].technologies[k]"
-          //append that li element to ul
-          
-          $('.project-details-wrap').find('ul').append("<li>"+projects[i].technologies[k]+"</li>");
+          //append that li element to ul          
+          // $('.project-details-wrap').find('ul').append("<li>"+projects[i].technologies[k]+"</li>");
+          technologiesString = technologiesString  +"  " + projects[i].technologies[k];
         }
+
+        $('.project-details-wrap').find('.technologies-list').html(technologiesString);  
+
       }
     }
   });

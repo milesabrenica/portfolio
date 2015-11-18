@@ -301,7 +301,7 @@ body{
 	.close{  
 		font-size: 50px;
 	    position: absolute;
-	    right: 5;
+	    right: 5px;
 	    top: -10px;
 	}
 
@@ -327,12 +327,9 @@ body{
 		}
 
 		.summary, .technologies{
-			width: 50%;
-			float: left;
-			display: inline-block;
-			line-height: 20px;
 			font-size: 20px;
-			padding-bottom: 25px;
+			text-align: left;
+			/*padding-bottom: 25px;*/
 
 			@include breakpoint('mobile'){
 				width:100%;
@@ -340,7 +337,7 @@ body{
 			}
 
 			p{
-				width:85%;
+				/*width:85%;*/
 				@include breakpoint('mobile'){
 					width: 90%;
 				}
@@ -351,12 +348,22 @@ body{
 				font-size: 20px;
 			}
 		}
+
+		.site, .github{
+			text-align: left;
+			a{
+				text-decoration: none;
+				color: red;
+				font-size: 20px;
+
+			}
+		}
 		
 		
-		a.view-project-button{
+		.link{
 			border: 1px solid #000;
 			border-radius: 1%;
-			padding: 25px;
+			padding: 15px;
 			background-color: #cccccc;
 			font-size: 20px;
 			letter-spacing: 5px;

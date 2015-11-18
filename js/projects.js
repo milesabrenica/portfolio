@@ -12,7 +12,8 @@ var projects = [
         ],
         thumbUrl: 'imgs/projects/portfolio/portfolio_hero.png',
         imgUrl: 'imgs/projects/portfolio/portfolio_hero.png',
-        url: '#'
+        gitHub: 'https://github.com/milesabrenica/portfolio',
+        url: 'https://milesabrenica.com'
     },
     {    
         id: '2',
@@ -27,6 +28,7 @@ var projects = [
         ],
         thumbUrl: 'imgs/projects/wedding/thumb.png',
         imgUrl: 'imgs/projects/wedding/hero.png',
+        gitHub: 'https://github.com/milesabrenica/wedding',
         url: 'http://benandmiles.com'
     },
     {
@@ -55,7 +57,8 @@ var projects = [
         ],
         thumbUrl: 'imgs/projects/sartres-list/thumb.png',
         imgUrl: 'imgs/projects/sartres-list/hero.png',
-        url: '#'
+        gitHub: 'https://github.com/milesabrenica/sartres-list',
+        url: 'http://milesabrenica.github.io/sartres-list/'
     },
      {
         id: '5',
@@ -67,7 +70,8 @@ var projects = [
         ],
         thumbUrl: 'imgs/projects/ecardly/thumb.png',
         imgUrl: 'imgs/projects/ecardly/hero.png',
-        url: '#'
+        gitHub: 'https://github.com/milesabrenica/ecardly',
+        url: 'http://milesabrenica.github.io/ecardly/'
     },
     {
         id: '6',
@@ -81,7 +85,8 @@ var projects = [
         ],
         thumbUrl: 'imgs/projects/startupmatchmaker/thumb.png',
         imgUrl: 'imgs/projects/startupmatchmaker/hero.png',
-        url: '#'
+        gitHub: 'https://github.com/milesabrenica/startup_matchmaker',
+        url: 'http://milesabrenica.github.io/startup_matchmaker/'
     },
     {
         id: '7',
@@ -95,21 +100,24 @@ var projects = [
         ],
         thumbUrl: 'imgs/projects/rockpaperscissors/thumb.png',
         imgUrl: 'imgs/projects/rockpaperscissors/hero.png',
-        url: '#'
+        gitHub: 'https://github.com/milesabrenica/rock_paper_scissors',
+        url: 'http://milesabrenica.github.io/rock_paper_scissors/'
     },
     {
         id: '8',
-        title: 'Whole Body Salon',
+        title: 'Full Body Salon',
         description: 'Demonstrating layout and links to multiple pages that user selects.',
         technologies: [
             'AJAX',
             'HTML',
             'CSS',
-            'JavaScript'
+            'JavaScript',
+            'Angular JS'
         ],
         thumbUrl: 'imgs/projects/bodysalon/wholebodysalon_thumb.png',
         imgUrl: 'imgs/projects/bodysalon/wholebodysalon_hero.png',
-        url: '#'
+        gitHub: 'https://github.com/milesabrenica/fullbodysalon',
+        url: 'http://milesabrenica.github.io/fullbodysalon/'
     },
     {
         id: '9',
@@ -124,6 +132,21 @@ var projects = [
         thumbUrl: 'imgs/projects/boyhood/boyhood_thumb.png',
         imgUrl: 'imgs/projects/boyhood/boyhood_hero.png',
         url: '#'
+    },
+    {
+        id: '10',
+        title: 'Movie Search',
+        description: 'Using API calls using AJAX and dynamically creating HTML with JSON. Demonstrating responsive design using mixins and media queries',
+        technologies: [
+            'AJAX',
+            'HTML',
+            'CSS',
+            'JavaScript'
+        ],
+        thumbUrl: 'imgs/projects/moviesearch/moviesearch.png',
+        imgUrl: 'imgs/projects/moviesearch/moviesearch.png',
+        gitHub: 'https://github.com/milesabrenica/movie-search',
+        url: 'http://milesabrenica.github.io/movie-search/'
     }
 
 ]

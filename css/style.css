@@ -222,7 +222,7 @@ body {
   .project-details-wrap .close {
     font-size: 50px;
     position: absolute;
-    right: 5;
+    right: 5px;
     top: -10px; }
   .project-details-wrap .detailed-view-wrap {
     font-size: 25px;
@@ -240,28 +240,31 @@ body {
     .project-details-wrap .detailed-view-wrap h2 {
       border: none; }
     .project-details-wrap .detailed-view-wrap .summary, .project-details-wrap .detailed-view-wrap .technologies {
-      width: 50%;
-      float: left;
-      display: inline-block;
-      line-height: 20px;
       font-size: 20px;
-      padding-bottom: 25px; }
+      text-align: left;
+      /*padding-bottom: 25px;*/ }
       @media screen and (max-width: 640px) {
         .project-details-wrap .detailed-view-wrap .summary, .project-details-wrap .detailed-view-wrap .technologies {
           width: 100%;
           float: none; } }
       .project-details-wrap .detailed-view-wrap .summary p, .project-details-wrap .detailed-view-wrap .technologies p {
-        width: 85%; }
+        /*width:85%;*/ }
         @media screen and (max-width: 640px) {
           .project-details-wrap .detailed-view-wrap .summary p, .project-details-wrap .detailed-view-wrap .technologies p {
             width: 90%; } }
       .project-details-wrap .detailed-view-wrap .summary ul, .project-details-wrap .detailed-view-wrap .technologies ul {
         line-height: 20px;
         font-size: 20px; }
-    .project-details-wrap .detailed-view-wrap a.view-project-button {
+    .project-details-wrap .detailed-view-wrap .site, .project-details-wrap .detailed-view-wrap .github {
+      text-align: left; }
+      .project-details-wrap .detailed-view-wrap .site a, .project-details-wrap .detailed-view-wrap .github a {
+        text-decoration: none;
+        color: red;
+        font-size: 20px; }
+    .project-details-wrap .detailed-view-wrap .link {
       border: 1px solid #000;
       border-radius: 1%;
-      padding: 25px;
+      padding: 15px;
       background-color: #cccccc;
       font-size: 20px;
       letter-spacing: 5px;
