@@ -56,7 +56,7 @@ $(".project-overlay").click(function(){
 
 // PROJECT GRID
 
-  var project = $('.project:first').remove();
+  var project = $('.project').remove();
 
   for(var i = 0; i < projects.length; i++){
     var tempProject = project.clone();
