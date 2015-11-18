@@ -71,6 +71,8 @@ body{
 		}
 	}
 
+
+
 	h2{
 	    font-size: 2em;
 	    padding: 25px 0;
@@ -191,11 +193,35 @@ body{
 		padding: 15%;
 
 		@include breakpoint('mobile'){
-			padding:0;
-			padding-top: 15%;
+			padding:15% 0;
 			height: 200px;
 			font-size: 25px;
+			min-height: 250px;
 		}
+
+		.subtitle-container{
+			// background-color: red;
+			width: 85%;
+			height: 300px;
+			margin: 0 auto;
+			position:relative;
+		}
+
+		.subtitle{
+			position: absolute;
+			top: 35%; 
+			opacity: 0;
+		} 
+
+		.animate{
+	  		top:0%;
+	  		opacity: 1;
+	  		transform: translateZ(0);
+		    -webkit-transition: top 750ms ease, opacity 750ms ease;
+		    transition: top 750ms ease, opacity 750ms ease;
+	  	}
+
+		
 	}
 	p{
 		color: #ffffff;

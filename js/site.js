@@ -1,4 +1,6 @@
 jQuery(document).ready(function($) {
+
+  $('.subtitle').addClass('animate');
 	
 //NAV LINKS
   $(function() {
