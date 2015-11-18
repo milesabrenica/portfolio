@@ -272,7 +272,7 @@ body{
 .project-details-wrap{
 	background-color: #ffffff;
     // border:20px solid #ffffff;
-    border-radius: 1%;
+    border-radius: 30px;
     width: 55%;
     height: 80%;
     margin: 0 auto;
@@ -299,10 +299,18 @@ body{
 	}
 
 	.close{  
-		font-size: 50px;
-	    position: absolute;
-	    right: 5px;
-	    top: -10px;
+		font-size: 25px;
+		font-family: lato;
+		font-weight: 100;
+		position: absolute;
+		right: -30px;
+		top: -30px;
+		-webkit-border-radius: 100px 100px 100px 100px;
+		background-color: #ffffff;
+		height: 30px;
+		width: 30px;
+		padding: 10px;
+		
 	}
 
 	.detailed-view-wrap{
@@ -326,54 +334,69 @@ body{
 			border:none;
 		}
 
-		.summary, .technologies{
-			font-size: 20px;
-			text-align: left;
-			/*padding-bottom: 25px;*/
+		.details{
+			padding: 0 25px;
 
-			@include breakpoint('mobile'){
-				width:100%;
-				float:none;
-			}
+			.summary, .technologies{
+				font-size: 17px;
+				text-align: left;
+				padding-top: 10px;
+				line-height: 25px;
 
-			p{
-				/*width:85%;*/
 				@include breakpoint('mobile'){
-					width: 90%;
+					width:100%;
+					float:none;
+				}
+
+				span.title{
+					font-size: 20px;
+					line-height: 20px;
+					font-weight: bolder;
+					margin: 0 auto;
+					text-transform: uppercase;
+
+					/*width:85%;*/
+					@include breakpoint('mobile'){
+						width: 90%;
+						font-weight: bold;
+					}
+				}
+				
+				ul{
+					line-height: 20px;
+					font-size: 20px;
 				}
 			}
-			
-			ul{
-				line-height: 20px;
-				font-size: 20px;
-			}
-		}
 
-		.site, .github{
-			text-align: left;
-			a{
+			.site, .github{
+				text-align: left;
+				display: inline-block;
+				padding: 0 30px;
+
+				a{
+					text-decoration: none;
+					// font-weight: bold;
+					font-family: league_gothic;
+					font-size: 25px;
+					color: #386BA5;
+				}
+			}
+						
+			.link{
+				border: 1px solid #000;
+				border-radius: 1%;
+				padding: 15px;
+				background-color: #cccccc;
+				font-size: 20px;
+				letter-spacing: 5px;
 				text-decoration: none;
-				color: red;
-				font-size: 20px;
-
-			}
-		}
-		
-		
-		.link{
-			border: 1px solid #000;
-			border-radius: 1%;
-			padding: 15px;
-			background-color: #cccccc;
-			font-size: 20px;
-			letter-spacing: 5px;
-			text-decoration: none;
-			color: #000;
-			display: block;
-			clear: both;
-			margin: 0 auto;
-			width: 20%;
-		}
+				color: #000;
+				display: block;
+				clear: both;
+				margin: 0 auto;
+				width: 20%;
+			}	
+		}	
 	}	
 }
 
@@ -382,11 +405,9 @@ body{
 
 #skills img.icon{
 	height: 65px;
-	padding-right: 5%;
 	margin: 0 auto;
 
 	@include breakpoint('mobile'){
-		padding:0;
 		height:60px;
 	}
 }
@@ -422,6 +443,10 @@ body{
 	color: #ffffff;
 	padding: 50px;
 
+	img{
+		width: 75px;
+		padding: 50px;
+	}
 	h2{
 		color:#ffffff;
 		border:none;

@@ -197,7 +197,7 @@ body {
 
 .project-details-wrap {
   background-color: #ffffff;
-  border-radius: 1%;
+  border-radius: 30px;
   width: 55%;
   height: 80%;
   margin: 0 auto;
@@ -220,10 +220,17 @@ body {
     font-weight: bold;
     margin: 0 auto; }
   .project-details-wrap .close {
-    font-size: 50px;
+    font-size: 25px;
+    font-family: lato;
+    font-weight: 100;
     position: absolute;
-    right: 5px;
-    top: -10px; }
+    right: -30px;
+    top: -30px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    background-color: #ffffff;
+    height: 30px;
+    width: 30px;
+    padding: 10px; }
   .project-details-wrap .detailed-view-wrap {
     font-size: 25px;
     display: block;
@@ -239,50 +246,60 @@ body {
       margin: 0 auto; }
     .project-details-wrap .detailed-view-wrap h2 {
       border: none; }
-    .project-details-wrap .detailed-view-wrap .summary, .project-details-wrap .detailed-view-wrap .technologies {
-      font-size: 20px;
-      text-align: left;
-      /*padding-bottom: 25px;*/ }
-      @media screen and (max-width: 640px) {
-        .project-details-wrap .detailed-view-wrap .summary, .project-details-wrap .detailed-view-wrap .technologies {
-          width: 100%;
-          float: none; } }
-      .project-details-wrap .detailed-view-wrap .summary p, .project-details-wrap .detailed-view-wrap .technologies p {
-        /*width:85%;*/ }
+    .project-details-wrap .detailed-view-wrap .details {
+      padding: 0 25px; }
+      .project-details-wrap .detailed-view-wrap .details .summary, .project-details-wrap .detailed-view-wrap .details .technologies {
+        font-size: 17px;
+        text-align: left;
+        padding-top: 10px;
+        line-height: 25px; }
         @media screen and (max-width: 640px) {
-          .project-details-wrap .detailed-view-wrap .summary p, .project-details-wrap .detailed-view-wrap .technologies p {
-            width: 90%; } }
-      .project-details-wrap .detailed-view-wrap .summary ul, .project-details-wrap .detailed-view-wrap .technologies ul {
-        line-height: 20px;
-        font-size: 20px; }
-    .project-details-wrap .detailed-view-wrap .site, .project-details-wrap .detailed-view-wrap .github {
-      text-align: left; }
-      .project-details-wrap .detailed-view-wrap .site a, .project-details-wrap .detailed-view-wrap .github a {
+          .project-details-wrap .detailed-view-wrap .details .summary, .project-details-wrap .detailed-view-wrap .details .technologies {
+            width: 100%;
+            float: none; } }
+        .project-details-wrap .detailed-view-wrap .details .summary span.title, .project-details-wrap .detailed-view-wrap .details .technologies span.title {
+          font-size: 20px;
+          line-height: 20px;
+          font-weight: bolder;
+          margin: 0 auto;
+          text-transform: uppercase;
+          /*width:85%;*/ }
+          @media screen and (max-width: 640px) {
+            .project-details-wrap .detailed-view-wrap .details .summary span.title, .project-details-wrap .detailed-view-wrap .details .technologies span.title {
+              width: 90%;
+              font-weight: bold; } }
+        .project-details-wrap .detailed-view-wrap .details .summary ul, .project-details-wrap .detailed-view-wrap .details .technologies ul {
+          line-height: 20px;
+          font-size: 20px; }
+      .project-details-wrap .detailed-view-wrap .details .site, .project-details-wrap .detailed-view-wrap .details .github {
+        text-align: left;
+        display: inline-block;
+        padding: 0 30px; }
+        .project-details-wrap .detailed-view-wrap .details .site a, .project-details-wrap .detailed-view-wrap .details .github a {
+          text-decoration: none;
+          font-family: league_gothic;
+          font-size: 25px;
+          color: #386BA5; }
+      .project-details-wrap .detailed-view-wrap .details .link {
+        border: 1px solid #000;
+        border-radius: 1%;
+        padding: 15px;
+        background-color: #cccccc;
+        font-size: 20px;
+        letter-spacing: 5px;
         text-decoration: none;
-        color: red;
-        font-size: 20px; }
-    .project-details-wrap .detailed-view-wrap .link {
-      border: 1px solid #000;
-      border-radius: 1%;
-      padding: 15px;
-      background-color: #cccccc;
-      font-size: 20px;
-      letter-spacing: 5px;
-      text-decoration: none;
-      color: #000;
-      display: block;
-      clear: both;
-      margin: 0 auto;
-      width: 20%; }
+        color: #000;
+        display: block;
+        clear: both;
+        margin: 0 auto;
+        width: 20%; }
 
 /*SKILLS*/
 #skills img.icon {
   height: 65px;
-  padding-right: 5%;
   margin: 0 auto; }
   @media screen and (max-width: 640px) {
     #skills img.icon {
-      padding: 0;
       height: 60px; } }
 
 .skills-container {
@@ -308,6 +325,9 @@ body {
   background-color: #000;
   color: #ffffff;
   padding: 50px; }
+  #contact img {
+    width: 75px;
+    padding: 50px; }
   #contact h2 {
     color: #ffffff;
     border: none; }

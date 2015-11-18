@@ -56,7 +56,7 @@ $(".project-overlay").click(function(){
 
 // PROJECT GRID
 
-  var project = $('.project').remove();
+  var project = $('.project:first').remove();
 
   for(var i = 0; i < projects.length; i++){
     var tempProject = project.clone();
@@ -70,6 +70,7 @@ $(".project-overlay").click(function(){
 //PROJECT OVERLAY
   $('.project').click(function(){
 
+    $('.detailed-view-wrap').find('img').attr('src', "")
     var myid = $(this).attr('data-id');
 
     for(var i = 0; i < projects.length; i++){
@@ -78,7 +79,7 @@ $(".project-overlay").click(function(){
 
         $('.project-details-wrap').find('img').attr('src', projects[i].imgUrl);
         $('.project-details-wrap').find('h2').html(projects[i].title);  
-        $('.summary').find('span').html(projects[i].description);  
+        $('.summary').find('.description').html(projects[i].description);  
         $('.github').find('a').attr('href',projects[i].gitHub);  
         $('.site').find('a').attr('href',projects[i].url);  
         var technologiesString = "";
