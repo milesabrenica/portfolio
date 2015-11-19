@@ -33,13 +33,6 @@ $(".close").click(function(){
   
 });
 
-$(".project-overlay").click(function(){
-  $("body").removeClass('no_scroll');
-  $(".project-overlay").fadeOut(400);
-  $(".main-nav, .main-nav-scrolled").fadeIn();
-  
-});
-
   // NAVIGATION SCROLL
   var  mn = $(".main-nav"),
   mns = "main-nav-scrolled",
