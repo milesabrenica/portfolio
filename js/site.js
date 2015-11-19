@@ -33,6 +33,12 @@ $(".close").click(function(){
   
 });
 
+$(document).keyup(function(e) {
+     if (e.keyCode == 27) { 
+      $(".project-overlay").fadeOut(400);
+    }
+});
+
   // NAVIGATION SCROLL
   var  mn = $(".main-nav"),
   mns = "main-nav-scrolled",
