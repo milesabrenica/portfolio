@@ -130,7 +130,7 @@ var projects = [
             'Angular JS'
         ],
         thumbUrl: 'imgs/projects/bodysalon/wholebodysalon_thumb.png',
-        imgUrl: 'imgs/projects/bodysalon/wholebodysalon_hero.png',
+        imgUrl: 'imgs/projects/bodysalon/wholebodysalon_hero.jpg',
         gitHub: 'https://github.com/milesabrenica/fullbodysalon',
         url: 'http://milesabrenica.github.io/fullbodysalon/'
     },
@@ -145,7 +145,7 @@ var projects = [
             'JavaScript'
         ],
         thumbUrl: 'imgs/projects/boyhood/boyhood_thumb.png',
-        imgUrl: 'imgs/projects/boyhood/boyhood_hero.png',
+        imgUrl: 'imgs/projects/boyhood/boyhood_thumb.png',
         url: '#'
     }
 ];

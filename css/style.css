@@ -222,8 +222,7 @@ body {
 
 .project-details-wrap {
   background-color: #ffffff;
-  width: 55%;
-  height: 80%;
+  width: 35%;
   margin: 0 auto;
   position: absolute;
   top: 50%;
@@ -238,8 +237,7 @@ body {
       transform: translate(0);
       position: absolute;
       top: 5%;
-      left: 5%;
-      height: 75%; } }
+      left: 5%; } }
   .project-details-wrap p {
     font-size: 15px;
     line-height: 20px;
@@ -272,20 +270,21 @@ body {
       width: 95%;
       margin: 0 auto; }
     .project-details-wrap .detailed-view-wrap h2 {
-      border: none; }
+      border: none;
+      width: 100%; }
     .project-details-wrap .detailed-view-wrap .details {
       padding: 0 25px; }
       .project-details-wrap .detailed-view-wrap .details .summary, .project-details-wrap .detailed-view-wrap .details .technologies {
-        font-size: 17px;
+        font-size: 15px;
         text-align: left;
         padding-top: 10px;
-        line-height: 25px; }
+        line-height: 15px; }
         @media screen and (max-width: 640px) {
           .project-details-wrap .detailed-view-wrap .details .summary, .project-details-wrap .detailed-view-wrap .details .technologies {
             width: 100%;
             float: none; } }
         .project-details-wrap .detailed-view-wrap .details .summary span.title, .project-details-wrap .detailed-view-wrap .details .technologies span.title {
-          font-size: 20px;
+          font-size: 15px;
           line-height: 20px;
           font-weight: bolder;
           margin: 0 auto;
