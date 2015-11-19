@@ -241,16 +241,16 @@ body {
     font-weight: bold;
     margin: 0 auto; }
   .project-details-wrap .close {
-    font-size: 25px;
+    font-size: 16px;
     font-family: lato;
     font-weight: 100;
     position: absolute;
-    right: -30px;
-    top: -30px;
+    right: -12px;
+    top: -7px;
     background-color: #ffffff;
-    height: 30px;
-    width: 30px;
-    padding: 10px;
+    height: 20px;
+    width: 20px;
+    padding: 1px;
     border-radius: 100px;
     -webkit-border-radius: 100px; }
   .project-details-wrap .detailed-view-wrap {

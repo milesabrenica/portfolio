@@ -35,7 +35,9 @@ $(".close").click(function(){
 
 $(document).keyup(function(e) {
      if (e.keyCode == 27) { 
+      $("body").removeClass('no_scroll');
       $(".project-overlay").fadeOut(400);
+      $(".main-nav, .main-nav-scrolled").fadeIn();
     }
 });
 

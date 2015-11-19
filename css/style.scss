@@ -328,16 +328,16 @@ body{
 	}
 
 	.close{  
-		font-size: 25px;
-		font-family: lato;
-		font-weight: 100;
-		position: absolute;
-		right: -30px;
-		top: -30px;
-		background-color: #ffffff;
-		height: 30px;
-		width: 30px;
-		padding: 10px;
+	    font-size: 16px;
+	    font-family: lato;
+	    font-weight: 100;
+	    position: absolute;
+	    right: -12px;
+	    top: -7px;
+	    background-color: #ffffff;
+	    height: 20px;
+	    width: 20px;
+	    padding: 1px;
 		
 		@include rounded(100px);
 	}
