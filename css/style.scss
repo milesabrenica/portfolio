@@ -416,11 +416,12 @@ body{
 			.link{
 				text-align: left;
 				display: inline-block;
-				padding: 0 30px;
-				background-color: #000;
-				margin-top: 25px;
+				
 
 				a{
+					padding: 0 30px;
+					background-color: #000;
+					margin-top: 25px;
 					text-decoration: none;
 					// font-weight: bold;
 					font-family: league_gothic;
@@ -428,8 +429,10 @@ body{
 					color: #386BA5;
 					float: left;
 					color: #ffffff;
+					
+					@include rounded(20px);
 				}
-				@include rounded(20px);
+				
 			}
 		}	
 	}	

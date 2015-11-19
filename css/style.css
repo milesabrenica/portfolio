@@ -299,19 +299,19 @@ body {
           font-size: 20px; }
       .project-details-wrap .detailed-view-wrap .details .link {
         text-align: left;
-        display: inline-block;
-        padding: 0 30px;
-        background-color: #000;
-        margin-top: 25px;
-        border-radius: 20px;
-        -webkit-border-radius: 20px; }
+        display: inline-block; }
         .project-details-wrap .detailed-view-wrap .details .link a {
+          padding: 0 30px;
+          background-color: #000;
+          margin-top: 25px;
           text-decoration: none;
           font-family: league_gothic;
           font-size: 25px;
           color: #386BA5;
           float: left;
-          color: #ffffff; }
+          color: #ffffff;
+          border-radius: 20px;
+          -webkit-border-radius: 20px; }
 
 /*SKILLS*/
 #skills img.icon {
