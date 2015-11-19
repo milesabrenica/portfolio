@@ -1,3 +1,5 @@
 config.codekit
 .DS_Store
 js/.DS_Store
+style.scssc
+_mixins.scssc
