@@ -39,7 +39,7 @@ body {
     cursor: pointer; }
   body h1 {
     color: white;
-    font-size: 4em;
+    font-size: 90px;
     font-family: 'league_gothic';
     /*letter-spacing: 25px;*/ }
     @media screen and (max-width: 640px) {
@@ -268,7 +268,8 @@ body {
       margin: 0 auto; }
     .project-details-wrap .detailed-view-wrap h2 {
       border: none;
-      width: 100%; }
+      width: 100%;
+      padding: 0; }
     .project-details-wrap .detailed-view-wrap .details {
       padding: 0 25px; }
       .project-details-wrap .detailed-view-wrap .details .summary, .project-details-wrap .detailed-view-wrap .details .technologies {
@@ -286,6 +287,7 @@ body {
           font-weight: bolder;
           margin: 0 auto;
           text-transform: uppercase;
+          text-decoration: underline;
           /*width:85%;*/ }
           @media screen and (max-width: 640px) {
             .project-details-wrap .detailed-view-wrap .details .summary span.title, .project-details-wrap .detailed-view-wrap .details .technologies span.title {
@@ -298,15 +300,17 @@ body {
         text-align: left;
         display: inline-block; }
         .project-details-wrap .detailed-view-wrap .details .github a, .project-details-wrap .detailed-view-wrap .details .url a {
-          padding: 0 30px;
+          padding: 0px 30px;
           background-color: #000;
-          margin-top: 25px;
+          margin-top: 5px;
           text-decoration: none;
           font-family: league_gothic;
-          font-size: 25px;
-          color: #386BA5;
+          font-size: 15px;
+          font-weight: normal;
           float: left;
           color: #ffffff;
+          line-height: 20px;
+          letter-spacing: 1px;
           border-radius: 20px;
           -webkit-border-radius: 20px; }
 
@@ -320,8 +324,7 @@ body {
 
 .skills-container {
   width: 60%;
-  margin: 0 auto;
-  padding: 5% 0; }
+  margin: 0 auto; }
   @media screen and (max-width: 640px) {
     .skills-container {
       width: 100%; } }
