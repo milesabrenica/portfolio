@@ -441,7 +441,7 @@ body{
 .skills-container{
 	width: 60%;
 	margin: 0 auto;
-	// padding: 5% 0;
+	padding-bottom: 100px;
 	
 	@include breakpoint('mobile'){
 		width:100%;
