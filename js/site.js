@@ -83,7 +83,7 @@ $(".project-overlay").click(function(){
         $('.project-details-wrap').find('h2').html(projects[i].title);  
         $('.summary').find('.description').html(projects[i].description);  
         $('.github').find('a').attr('href',projects[i].gitHub);  
-        $('.site').find('a').attr('href',projects[i].url);  
+        $('.url').find('a').attr('href',projects[i].url);  
         var technologiesString = "";
 
         //This goes through the list of technologies and makes a list of them on the window. 

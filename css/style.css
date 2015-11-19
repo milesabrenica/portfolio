@@ -142,8 +142,7 @@ body {
       #landing .content {
         padding: 15% 0;
         height: 200px;
-        font-size: 25px;
-        height: 300px; } }
+        font-size: 25px; } }
     #landing .content .subtitle-container {
       width: 85%;
       height: 300px;
@@ -295,10 +294,10 @@ body {
         .project-details-wrap .detailed-view-wrap .details .summary ul, .project-details-wrap .detailed-view-wrap .details .technologies ul {
           line-height: 20px;
           font-size: 20px; }
-      .project-details-wrap .detailed-view-wrap .details .link {
+      .project-details-wrap .detailed-view-wrap .details .github, .project-details-wrap .detailed-view-wrap .details .url {
         text-align: left;
         display: inline-block; }
-        .project-details-wrap .detailed-view-wrap .details .link a {
+        .project-details-wrap .detailed-view-wrap .details .github a, .project-details-wrap .detailed-view-wrap .details .url a {
           padding: 0 30px;
           background-color: #000;
           margin-top: 25px;
