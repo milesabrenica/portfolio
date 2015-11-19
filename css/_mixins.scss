@@ -15,3 +15,8 @@
 		}
 	}
 }
+
+@mixin rounded($value){
+	border-radius: $value;
+	-webkit-border-radius: $value;
+}

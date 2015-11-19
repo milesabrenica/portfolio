@@ -33,6 +33,10 @@ body {
   color: #3c3c3c;
   position: relative;
   background-image: url("../imgs/whitebg.jpg"); }
+  body a:hover {
+    cursor: pointer; }
+  body .project:hover {
+    cursor: pointer; }
   body h1 {
     color: white;
     font-size: 4em;
@@ -139,16 +143,22 @@ body {
         padding: 15% 0;
         height: 200px;
         font-size: 25px;
-        min-height: 250px; } }
+        height: 300px; } }
     #landing .content .subtitle-container {
       width: 85%;
       height: 300px;
       margin: 0 auto;
-      position: relative; }
+      position: relative;
+      display: block; }
+      @media screen and (max-width: 640px) {
+        #landing .content .subtitle-container {
+          width: 100%; } }
     #landing .content .subtitle {
       position: absolute;
       top: 35%;
-      opacity: 0; }
+      opacity: 0;
+      height: 100%;
+      width: 100%; }
     #landing .content .animate {
       top: 0%;
       opacity: 1;
@@ -212,7 +222,6 @@ body {
 
 .project-details-wrap {
   background-color: #ffffff;
-  border-radius: 30px;
   width: 55%;
   height: 80%;
   margin: 0 auto;
@@ -220,7 +229,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 1%; }
+  padding: 1%;
+  border-radius: 30px;
+  -webkit-border-radius: 30px; }
   @media screen and (max-width: 640px) {
     .project-details-wrap {
       width: 90%;
@@ -241,11 +252,12 @@ body {
     position: absolute;
     right: -30px;
     top: -30px;
-    -webkit-border-radius: 100px 100px 100px 100px;
     background-color: #ffffff;
     height: 30px;
     width: 30px;
-    padding: 10px; }
+    padding: 10px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px; }
   .project-details-wrap .detailed-view-wrap {
     font-size: 25px;
     display: block;
@@ -286,29 +298,21 @@ body {
         .project-details-wrap .detailed-view-wrap .details .summary ul, .project-details-wrap .detailed-view-wrap .details .technologies ul {
           line-height: 20px;
           font-size: 20px; }
-      .project-details-wrap .detailed-view-wrap .details .site, .project-details-wrap .detailed-view-wrap .details .github {
+      .project-details-wrap .detailed-view-wrap .details .link {
         text-align: left;
         display: inline-block;
-        padding: 0 30px; }
-        .project-details-wrap .detailed-view-wrap .details .site a, .project-details-wrap .detailed-view-wrap .details .github a {
+        padding: 0 30px;
+        background-color: #000;
+        margin-top: 25px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px; }
+        .project-details-wrap .detailed-view-wrap .details .link a {
           text-decoration: none;
           font-family: league_gothic;
           font-size: 25px;
           color: #386BA5;
-          float: left; }
-      .project-details-wrap .detailed-view-wrap .details .link {
-        border: 1px solid #000;
-        border-radius: 1%;
-        padding: 15px;
-        background-color: #cccccc;
-        font-size: 20px;
-        letter-spacing: 5px;
-        text-decoration: none;
-        color: #000;
-        display: block;
-        clear: both;
-        margin: 0 auto;
-        width: 20%; }
+          float: left;
+          color: #ffffff; }
 
 /*SKILLS*/
 #skills img.icon {
