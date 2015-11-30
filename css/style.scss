@@ -58,13 +58,18 @@ body{
 	position: relative;
 	background-image: url('../imgs/whitebg.jpg');
 	
-	a:hover {
+	a:hover{
 		cursor:pointer;
 	}
 
 	.project:hover{
 		cursor: pointer;
 	}
+
+	.close:hover{
+		cursor: pointer;
+	}
+	
 
 	h1{
 	color: rgb(255, 255, 255);

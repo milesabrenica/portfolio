@@ -37,6 +37,8 @@ body {
     cursor: pointer; }
   body .project:hover {
     cursor: pointer; }
+  body .close:hover {
+    cursor: pointer; }
   body h1 {
     color: white;
     font-size: 90px;
