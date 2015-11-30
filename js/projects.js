@@ -63,7 +63,7 @@ var projects = [
     {
         id: '5',
         title: 'Full Body Salon',
-        description: 'Demonstrating layout and links to multiple pages that user selects.',
+        description: 'Demonstrating use of AngularJS routing and nested views navigation',
         technologies: [
             'AJAX',
             'HTML',
