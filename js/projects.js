@@ -131,7 +131,7 @@ var projects = [
         ],
         thumbUrl: 'imgs/projects/boyhood/boyhood_thumb.png',
         imgUrl: 'imgs/projects/boyhood/boyhood_thumb.png',
-        gitHub: 'https://github.com/milesabrenica/boyhood'
+        gitHub: 'https://github.com/milesabrenica/boyhood',
         url: 'http://milesabrenica.github.io/boyhood/'
     }
     // {
