@@ -4,10 +4,10 @@ var projects = [
         title: 'Wedding',
         description: 'One page site to inform friends and family of upcoming wedding details. This site has a countdown until the day of the wedding. Once the wedding happens, the counter will then count up the days since the couple has been married.', 
         technologies: [
-            'AJAX',
-            'HTML',
-            'CSS',
-            'JavaScript',
+            'AJAX,',
+            'HTML,',
+            'CSS,',
+            'JavaScript,',
             'SASS'
         ],
         thumbUrl: 'imgs/projects/wedding/thumb.jpg',
@@ -20,10 +20,10 @@ var projects = [
         title: 'Portfolio',
         description: 'One page layout design using AJAX, JavaScript and JQuery to display projects as well as an overlay with detailed descriptions of selected projects. ',
         technologies: [
-            'AJAX',
-            'HTML',
-            'CSS',
-            'JavaScript',
+            'AJAX,',
+            'HTML,',
+            'CSS,',
+            'JavaScript,',
             'SASS'
         ],
         thumbUrl: 'imgs/projects/portfolio/portfolio_hero.jpg',
@@ -36,9 +36,9 @@ var projects = [
         title: 'Form',
         description: 'A form to submit contact information desired quote type. Customer is then sent an email with all form submitted answers as confirmation.',
         technologies: [
-            'AJAX',
-            'HTML',
-            'CSS',
+            'AJAX,',
+            'HTML,',
+            'CSS,',
             'JavaScript'
         ],
         thumbUrl: 'imgs/projects/form/thumb.jpg',
@@ -65,11 +65,11 @@ var projects = [
         title: 'Full Body Salon',
         description: 'Demonstrating use of AngularJS routing and nested views navigation',
         technologies: [
-            'AJAX',
-            'HTML',
-            'CSS',
-            'JavaScript',
-            'Angular JS'
+            'AJAX,',
+            'HTML,',
+            'CSS,',
+            'JavaScript,',
+            'AngularJS,'
         ],
         thumbUrl: 'imgs/projects/bodysalon/wholebodysalon_hero.jpg',
         imgUrl: 'imgs/projects/bodysalon/wholebodysalon_hero.jpg',
@@ -81,9 +81,9 @@ var projects = [
         title: 'matchmaker',
         description: 'Incoperating JSON and AJAX to display contact information based on what type of professional user is searching for.',
         technologies: [
-            'AJAX',
-            'HTML',
-            'CSS',
+            'AJAX,',
+            'HTML,',
+            'CSS,',
             'JavaScript'
         ],
         thumbUrl: 'imgs/projects/startupmatchmaker/hero.jpg',
@@ -96,9 +96,9 @@ var projects = [
         title: 'Fashion Blog',
         description: 'Blog to demonstrate layout structures.',
         technologies: [
-            'AJAX',
-            'HTML',
-            'CSS',
+            'AJAX,',
+            'HTML,',
+            'CSS,',
             'JavaScript'
         ],
         thumbUrl: 'imgs/projects/sartres-list/thumb.jpg',
@@ -111,8 +111,8 @@ var projects = [
         title: 'Ecardly',
         description: 'Demonstrating layout structure in blog format through Wordpress. Manipulated Wordpress templates to repeat blog entry structure with new content.',
         technologies: [
-            'HTML',
-            'CSS',
+            'HTML,',
+            'CSS,',
         ],
         thumbUrl: 'imgs/projects/ecardly/thumb.jpg',
         imgUrl: 'imgs/projects/ecardly/thumb.jpg',
@@ -124,9 +124,9 @@ var projects = [
         title: 'Boyhood',
         description: 'Demonstrating layout and hover effects to attain movie details.',
         technologies: [
-            'AJAX',
-            'HTML',
-            'CSS',
+            'AJAX,',
+            'HTML,',
+            'CSS,',
             'JavaScript'
         ],
         thumbUrl: 'imgs/projects/boyhood/boyhood_thumb.png',
