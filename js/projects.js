@@ -69,7 +69,7 @@ var projects = [
             'HTML,',
             'CSS,',
             'JavaScript,',
-            'AngularJS,'
+            'AngularJS'
         ],
         thumbUrl: 'imgs/projects/bodysalon/wholebodysalon_hero.jpg',
         imgUrl: 'imgs/projects/bodysalon/wholebodysalon_hero.jpg',
@@ -112,7 +112,7 @@ var projects = [
         description: 'Demonstrating layout structure in blog format through Wordpress. Manipulated Wordpress templates to repeat blog entry structure with new content.',
         technologies: [
             'HTML,',
-            'CSS,',
+            'CSS',
         ],
         thumbUrl: 'imgs/projects/ecardly/thumb.jpg',
         imgUrl: 'imgs/projects/ecardly/thumb.jpg',
