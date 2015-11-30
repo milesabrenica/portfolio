@@ -29,7 +29,7 @@ var projects = [
         thumbUrl: 'imgs/projects/portfolio/portfolio_hero.jpg',
         imgUrl: 'imgs/projects/portfolio/portfolio_hero.jpg',
         gitHub: 'https://github.com/milesabrenica/portfolio',
-        url: 'https://milesretuta.com'
+        url: 'https://milesabrenica.com'
     },
     {
         id: '3',
