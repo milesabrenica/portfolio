@@ -1,6 +1,11 @@
 config.codekit
 .DS_Store
+css/.DS_Store
+assets/.DS_Store
 js/.DS_Store
+imgs/.DS_Store
+fonts/.DS_Store
 style.scssc
 _mixins.scssc
 css/.sass-cache
+.codekit-cashe
