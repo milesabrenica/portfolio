@@ -43,7 +43,7 @@ var projects = [
         ],
         thumbUrl: 'imgs/projects/form/thumb.jpg',
         imgUrl: 'imgs/projects/form/hero.jpg',
-        url: '#'
+        url: 'http://milesabrenica.github.io/form/'
     },
     {
         id: '4',
@@ -131,7 +131,7 @@ var projects = [
         ],
         thumbUrl: 'imgs/projects/boyhood/boyhood_thumb.png',
         imgUrl: 'imgs/projects/boyhood/boyhood_thumb.png',
-        url: '#'
+        url: 'http://milesabrenica.github.io/boyhood/'
     }
     // {
     //     id: '10',
