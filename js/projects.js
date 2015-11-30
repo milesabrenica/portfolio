@@ -50,9 +50,9 @@ var projects = [
         title: 'Movie Search',
         description: 'Using API calls using AJAX and dynamically creating HTML with JSON. Demonstrating responsive design using mixins and media queries',
         technologies: [
-            'AJAX',
-            'HTML',
-            'CSS',
+            'AJAX,',
+            'HTML,',
+            'CSS,',
             'JavaScript'
         ],
         thumbUrl: 'imgs/projects/moviesearch/moviesearch.jpg',
